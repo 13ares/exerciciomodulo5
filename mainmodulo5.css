@@ -57,6 +57,12 @@ section h1, section h2 {
     height: 400px;
 }
 
+#about a{
+    text-decoration: none;
+    font-weight: bold;
+    color: cadetblue;
+}
+
 #about p {
     font-family: "roboto", sans-serif;
     margin-bottom: 8px;
