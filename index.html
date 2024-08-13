@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eugenia Artesanatos</title>
+    <link rel="stylesheet" href="./mainmodulo5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Playwrite+AR:wght@100..400&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Eugenia Artesanatos</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Quem sou eu</a>
+                    </li>
+                    <li>
+                        <a href="#products">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#order">Encomende o seu</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="artisan" src="./media/experson.jpg" alt="desenho de mulher tricotando"/>
+            <div>
+                <h2>Quem sou eu</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eum nesciunt molestias magni assumenda ea nulla eaque architecto distinctio qui dolor similique doloribus voluptatibus enim necessitatibus quod in dolores doloremque?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe odio facere libero reiciendis ex, temporibus dolor repudiandae dolore quo aliquid placeat beatae deserunt accusantium recusandae dicta dignissimos iste rerum blanditiis!
+                </p>
+                <ul class="ig-link">
+                    <li>
+                        <a href="#" title="Acompanhe o Instagram">
+                            <img src="/EBAC/Projeto1_GAMES_SHOP/images/instagram.png" alt="Logo Instragram"> 
+                            @igdaloja
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h2>Produtos</h2>
+            <nav>
+                <ul class="product-list">
+                    <li>
+                        <a href="./crochet.html">Crochê</a>
+                    </li>
+                    <li>
+                        <a href="./knit.html">Tricô</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="order">
+        <div class="container">
+            <h2>Encomende o seu</h2>
+            <form>
+            <section id="customer-info">
+                <h3>Informações Pessoais</h3>
+                <label for="name">Seu nome:</label>
+                <input id="name" type="text" placeholder="Nome completo" required/>
+                <label for="email">Seu e-mail:</label>
+                <input id="email" type="email" placeholder="(opcional)"/>
+                <label for="phone">Seu telefone:</label>
+                <input id="phone" type="tel" placeholder="(XX) XXXXX-XXXX" required/>
+            </section>
+            <section id="order-info">
+                <h3>Pedido</h3>
+                <label for="babyknit">Conjuntinho para Bebê</label>
+                <input id="babyknit" type="checkbox">
+                <input type="number" max="3" min="1" placeholder="Quandidade"/>
+                <label for="bathroomcrochet">Conjunto Banheiro</label>
+                <input id="bathroomcrochet" type="checkbox">
+                <input type="number" max="3" min="1" placeholder="Quandidade"/>
+                <label for="dinnerroomcrochet">Conjunto Copa</label>
+                <input id="dinnerroomcrochet" type="checkbox">
+                <input type="number" max="3" min="1" placeholder="Quandidade"/>
+                <label for="kitchencrochet">Conjunto Cozinha</label>
+                <input id="kitchencrochet" type="checkbox">
+                <input type="number" max="3" min="1" placeholder="Quandidade"/>
+                <label for="orderdescription">Personalize seu pedido</label>
+                <textarea id="orderdescription" placeholder="(Cores, detalhes personalizados, etc)"></textarea>
+                <p>
+                    Após o pedido realizado, entraremos em contato para informações de pagamento
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy;; Eugenia Artesanatos - Todos os direitos reservados - 2024 - CNPJ XXXXX/XXXX-XX 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

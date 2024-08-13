@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playwrite AR", cursive;
+    background-color:antiquewhite;
+}
+
+body h1 {
+    font-weight: bold;
+}
+
+header {
+    padding: 16px 0;
+    background-color: burlywood;
+    color: cadetblue;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+    color: rgb(155, 128, 93);
+}
+
+section h1, section h2 {
+    color: cadetblue;
+    padding: 24px;
+}
+
+#about .artisan {
+    height: 400px;
+}
+
+#about p {
+    font-family: "roboto", sans-serif;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.ig-link img {
+    height: 24px;
+    margin-left: 16px;
+}
+
+#products li {
+    display: inline;
+}
+
+#products li a {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(155, 128, 93) ;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+form #customer-info input, 
+form #customer-info button {
+    display: block;
+    width: 320px;
+    height: 32px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form #order-info input,
+form #order-info button {
+    display: block;
+    width: 128px;
+    height: 32px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form #order-info textarea {
+    display: block;
+    resize: none;
+    height: 240px;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    font-family: "roboto", sans-serif;
+    font-size: large;
+    background-color: cadetblue;
+    color: burlywood;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: burlywood;
+    text-decoration: underline;
+}
+
+form button:hover {
+    background-color: rgb(71, 117, 119);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(85, 71, 52);
+}
+
+footer {
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: burlywood;
+    color: cadetblue;
+}
+
+#crochetpage .container img,
+#knitpage .container img {
+    height: 350px;
+    padding: 8px;
+}
