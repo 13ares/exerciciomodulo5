@@ -152,3 +152,7 @@ footer {
     height: 350px;
     padding: 8px;
 }
+
+#order-info .forms {
+    display: flex;
+}
